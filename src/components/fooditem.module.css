@@ -1,0 +1,47 @@
+.itemContainer{
+    width: 300px;
+    margin: 30px;
+    box-shadow: 0 8px 9px rgba(67, 215, 53, 0.4);
+    border-radius: 7px;
+    overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.itemContainer:hover{
+    width: 305px;
+}
+.itemImage{
+    max-width: 100%;
+    height: auto;
+}
+.itemContent{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.itemName{
+    font-weight: 600;
+    font-size: 1em;
+    color: #393e46;
+}
+.buttonContainer{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.itemButton{
+    background-color: #00A36C;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+}
+.itemButton:hover{
+    background-color: #0982599a;
+    border: none;
+    color: rgb(14, 14, 14);
+    border-radius: 8px;
+    font-weight: 650;
+}

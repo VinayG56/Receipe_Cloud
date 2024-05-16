@@ -1,0 +1,12 @@
+.textContainer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-right: 126px;
+}
+.text{
+    font-size: 18px;
+    font-weight: 550;
+    margin-bottom: -2px;
+    font-weight: 550;
+}
